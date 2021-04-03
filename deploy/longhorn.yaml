@@ -555,7 +555,7 @@ data:
     backup-target:
     backup-target-credential-secret:
     allow-recurring-job-while-volume-detached:
-    create-default-disk-labeled-nodes:
+    create-default-disk-labeled-nodes: true
     default-data-path:
     replica-soft-anti-affinity:
     storage-over-provisioning-percentage:
