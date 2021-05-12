@@ -552,8 +552,8 @@ metadata:
   namespace: longhorn-system
 data:
   default-setting.yaml: |-
-    backup-target:
-    backup-target-credential-secret:
+    backup-target: s3://f3c369ba-b306-11eb-8e20-8c16457de4a3@eu-north-1/
+    backup-target-credential-secret: longhorn-backup-secret
     allow-recurring-job-while-volume-detached:
     create-default-disk-labeled-nodes: true
     default-data-path:
